@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCbWBK74mGmLJ6P5MM-xphgUnujUK4PXb8',
+    authDomain: 'smart-stock-trader.firebaseapp.com',
+    databaseURL: 'https://smart-stock-trader.firebaseio.com',
+    projectId: 'smart-stock-trader',
+    storageBucket: 'smart-stock-trader.appspot.com',
+    messagingSenderId: '342820345036'
+  }
 };
 
 /*
